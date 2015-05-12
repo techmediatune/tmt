@@ -13,7 +13,6 @@ position: absolute; /*leave as is*/
 left: 0;  /*leave as is*/
 top: 0;  /*leave as is*/
 padding: 2px;
-background: white;
 width:110px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
 height: 600px;
 filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
