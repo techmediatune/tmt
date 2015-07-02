@@ -1,5 +1,3 @@
-
-
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -30,4 +28,4 @@ if (typeof(height) == 'undefined') height = 270;
 if (width < 360) width = 360;
 if (height < 270) height = 270;
 if (width < height) height = width;
-document.write('<iframe width='+width+' height='+height+' scrolling=no frameborder=0 scrolling=no allowtransparency=true marginwidth="0" marginheight="0" src=http//p3g.tv/'+embedded+'/'+channel+'/'+g+'/'+width+'/'+height+' ></iframe>')
+document.write('<iframe width='+width+' height='+height+' scrolling=no frameborder=0 scrolling=no allowtransparency=true marginwidth="0" marginheight="0" src=http://www.p3g.tv/'+embedded+'/'+channel+'/'+g+'/'+width+'/'+height+' ></iframe>')
